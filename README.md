@@ -32,7 +32,7 @@ Enter a number: 7
 
 
 ### 2.Factorial of a Number  
- File:factorial.py  
+ File: factorial.py  
 
 # Description  
 This program finds the **factorial** of a number using both **loop** and **recursion** methods.  
@@ -50,7 +50,7 @@ Factorial of 5 is 120
 
 
 ### 3. Reverse a String  
- File:reverse string.py  
+ File: reverse string.py  
 
 # Description  
 This program reverses a given string **without using built-in functions**.  
