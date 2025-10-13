@@ -95,7 +95,7 @@ Counts vowels, consonants, digits, and spaces in a string.
 File: mini_projects/guess_the_number.py
 Generates a random number (1–100) and lets the user guess it until correct.
 
-🗳️ 6. Voting Eligibility Checker
+ 6. Voting Eligibility Checker
 
 File: mini_projects/voting_checker.py
 Tells if a person is eligible to vote based on their age.
