@@ -1,65 +1,101 @@
-# python-DSA-practice
-This repository contains my **Python programs** for learning and practicing **Data Structures and Algorithms (DSA)**.  
-Each program focuses on one concept with simple explanations and clean code.  
-## Topics Covered  
--  Arrays  
--  Strings  
--  Searching  
--  Sorting  
--  Stacks  
--  Queues  
--  Basic Problems (Prime, Factorial, Reverse String, etc.)  
+ ### Topics Covered
 
-##  Example Programs  
+ --Basic Python (loops, conditionals, functions)
 
-### 1. Prime Number Checker  
-     File: prime.py  
+ --Arrays and Strings
 
-# Description  
-This program checks whether a given number is a **prime number** or not.  
+ --Searching and Sorting
 
-# How It Works  
-1. The user enters a number.  
-2. If it’s greater than 1, the program checks divisibility from 2 to num-1 
-3. If divisible by any number → Not Prime  
-4. Otherwise → Prime   
+ --Basic DSA logic building
 
-# Example Output  
-Enter a number: 7
-7 is a prime number
+ --Mini Projects for practice
 
+# Basic Programs
+1. Prime Number Checker
 
+File: basic_programs/prime_number.py
+Checks if a given number is prime or not.
 
+Logic:
+Iterate from 2 to num - 1 → if divisible → not prime → else prime 
 
-### 2.Factorial of a Number  
- File: factorial.py  
+2. Factorial of a Number
 
-# Description  
-This program finds the **factorial** of a number using both **loop** and **recursion** methods.  
+File: basic_programs/factorial.py
+Finds factorial using both loop and recursion.
 
-# How It Works  
-1. User inputs a number.  
-2. The loop multiplies all numbers from 1 to n.  
-3. Alternatively, recursion calls the same function until n = 1.  
+Example:
+5! = 120
 
-# Example Output  
-Enter a number: 5
-Factorial of 5 is 120
+3️. Reverse a String
 
+File: basic_programs/reverse_string.py
+Reverses a given string without using built-in functions.
 
+Logic:
+Loop through the string from end to start.
 
+4️. Sum of Digits
 
-### 3. Reverse a String  
- File: reverse string.py  
+File: basic_programs/sum_of_digits.py
+Calculates the sum of digits of a number.
 
-# Description  
-This program reverses a given string **without using built-in functions**.  
+Example:
+Input: 123 → Output: 6
 
-# How It Works  
-1. Takes input string from the user.  
-2. Loops through each character and adds it to the front of a new string.  
-3. Displays the reversed result.  
+5️. Fibonacci Series
 
-# Example Output 
-Enter a string: hello
-Reversed string: olleh
+File: basic_programs/fibonacci_series.py
+Generates Fibonacci sequence up to n terms.
+
+Example:
+0 1 1 2 3 5 8 13...
+
+6️. Palindrome Number
+
+File: basic_programs/palindrome_number.py
+Checks if a number reads the same backward and forward.
+
+Example:
+121 → Palindrome 
+
+ex....
+
+# Mini Projects
+1. Number Analyzer
+
+File: mini_projects/number_analyzer.py
+Analyzes a number to find:
+
+Sum of digits
+
+Reverse
+
+Even/Odd
+
+Palindrome check
+
+ 2. Simple Calendar App
+
+File: mini_projects/calendar_app.py
+Displays a monthly calendar for a given year and month using the calendar module.
+
+ 3. Prime Numbers Finder
+
+File: mini_projects/prime_finder.py
+Prints all prime numbers up to a user-defined limit.
+
+ 4. String Analyzer
+
+File: mini_projects/string_analyzer.py
+Counts vowels, consonants, digits, and spaces in a string.
+
+ 5. Guess the Number Game
+
+File: mini_projects/guess_the_number.py
+Generates a random number (1–100) and lets the user guess it until correct.
+
+🗳️ 6. Voting Eligibility Checker
+
+File: mini_projects/voting_checker.py
+Tells if a person is eligible to vote based on their age.
