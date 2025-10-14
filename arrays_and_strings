@@ -1,0 +1,13 @@
+ ### arrays_and_strings – programs based on list and string operations ###
+
+  largest_smallest.py → Find biggest and smallest number in a list
+
+  count_even_odd.py → Count how many numbers are even and odd
+
+  string_palindrome.py → Check if a word is the same forward and backward
+
+  vowels_consonants.py → Count vowels and consonants in a word
+
+  sum_of_list.py → Add all numbers in a list
+
+  list_statistics.py → Find total, average, max, and min in a list
