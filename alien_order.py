@@ -1,0 +1,28 @@
+from collections import defaultdict, deque
+
+def alien_order(words):
+    graph = defaultdict(set)
+    indeg = {c:0 for w in words for c in w}
+
+    for w1, w2 in zip(words, words[1:]):
+        for a, b in zip(w1, w2):
+            if a != b:
+                if b not in graph[a]:
+                    graph[a].add(b)
+                    indeg[b] += 1
+                break
+
+    q = deque([c for c in indeg if indeg[c] == 0])
+    res = ""
+
+    while q:
+        c = q.popleft()
+        res += c
+        for nei in graph[c]:
+            indeg[nei] -= 1
+            if indeg[nei] == 0:
+                q.append(nei)
+
+    return res if len(res) == len(indeg) else ""
+
+print(alien_order(["wrt","wrf","er","ett","rftt"]))
